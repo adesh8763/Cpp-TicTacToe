@@ -2,8 +2,7 @@
 #include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent), xTurn(true)
-{
+    : QMainWindow(parent), xTurn(true) {
     centralWidget = new QWidget(this);
     setCentralWidget(centralWidget);
 
@@ -15,8 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
     resize(300, 300);
 }
 
-MainWindow::~MainWindow()
-{
+MainWindow::~MainWindow(){
     
 }
 
@@ -104,8 +102,7 @@ void MainWindow::checkWinner(){
     }
 }
 
-void MainWindow::resetBoard()
-{
+void MainWindow::resetBoard() {
     for(int i = 0; i < 3; ++i)
         for(int j = 0; j < 3; ++j)
             buttons[i][j]->setText("");

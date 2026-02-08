@@ -1,11 +1,3 @@
-/****************************************************************************
-** Meta object code from reading C++ file 'mainwindow.h'
-**
-** Created by: The Qt Meta Object Compiler version 69 (Qt 6.10.1)
-**
-** WARNING! All changes made in this file will be lost!
-*****************************************************************************/
-
 #include "mainwindow.h"
 #include <QtCore/qmetatype.h>
 
@@ -30,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN10MainWindowE_t {};
+    struct qt_meta_tag_ZN10MainWindowE_t {};
 } 
 
 template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_tag_ZN10MainWindowE_t>(){
