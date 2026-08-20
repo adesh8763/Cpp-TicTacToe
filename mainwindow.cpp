@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include <QMessageBox>
+#include <iostream>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), xTurn(true) {
@@ -15,7 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
 }
 
 MainWindow::~MainWindow(){
-    
+    std::cout << "Destructor Called... Eithet page crash or manual exit form user..." << std::endl;
 }
 
 void MainWindow::initUI() {
