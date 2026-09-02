@@ -16,7 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
 }
 
 MainWindow::~MainWindow(){
-    std::cout << "Destructor Called... Eithet page crash or manual exit form user..." << std::endl;
+    std::cout << "Destructor Called... Either page crash or manual exit form user..." << std::endl;
 }
 
 void MainWindow::initUI() {
