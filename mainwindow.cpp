@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     initUI();
     setWindowTitle("Tic Tac Toe");
-    resize(300, 300);
+    resize(500, 500);
 }
 
 MainWindow::~MainWindow(){
